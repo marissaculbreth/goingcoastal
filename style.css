@@ -1,0 +1,243 @@
+/*
+  Theme Name: Web Interactivity & Engagement Assignment 2 Theme
+  Theme URI:
+  Author: Marissa Culbreth
+  Description: This assignment serves as an understanding on how to code the beginning parts of a WordPress theme.
+  Version: 1.0
+  License: Open
+  Text Domain: web_interactivity
+*/
+
+/* Universal Styling */
+
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a.btn.btn-primary {
+  font-family: 'Open Sans';
+  padding: 3%;
+  background-color: #f08e51;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+table {
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+/* Header */
+
+header {
+  background-color: #f7df7f;
+}
+
+label.screen-reader-text {
+  display: none;
+}
+
+input#s {
+  margin-top: 10%;
+  float:left;
+  width: 60%;
+}
+
+input#searchsubmit {
+  background-color: #3063A5;
+  color: white;
+  font-size: 1rem;
+  padding: 3% 6%;
+  float:right;
+  margin-top: 8%;
+}
+
+
+/* Home page */
+
+div.widget-hero-image {
+  float: left;
+  width: 49%;
+  margin-top: 5%;
+}
+
+div.widget-about-us {
+  float:right;
+  width: 49%;
+  margin-top: -25%;
+  margin-left: -5%;
+}
+
+div.home-page-bottom {
+  margin-top: 9%;
+}
+
+div.home-page-bottom {
+  background-color: lightblue;
+  padding: 10%;
+}
+
+
+
+/* Navigation */
+
+div.top-menu-class ul {
+  margin-left: -50%;
+}
+
+ul#menu-main-menu.menu li {
+  font-family: 'Open Sans';
+  display: inline;
+  width: 100%;
+  font-size: 1.2rem;
+  list-style-type: none;
+  padding-left: 12%;
+}
+
+
+
+/* Body */
+
+h3 {
+  font-family: 'Kaushan Script';
+  font-size: 1.5rem;
+  clear: both;
+}
+
+p {
+  font-family: 'Open Sans';
+}
+
+.post-featured-image {
+  float: left;
+  padding-right: 3%;
+}
+
+#home-display {
+  display: flex;
+}
+
+img.about-image {
+	float: left;
+	padding-right: 2%;
+}
+
+h2.entry-title {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+
+
+
+
+/* Featured Images */
+
+.single-post-featured-image img {
+  margin: auto;
+  padding: 0 3% 3% 3%;
+  float:left;
+  margin-bottom: 3%;
+}
+
+
+
+/* Posts */
+
+h2 {
+  font-family: 'Kaushan Script';
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+p {
+  padding-left: 2%;
+  font-size: 1rem;
+}
+
+.post-section {
+  width: 90%;
+}
+
+.post-info {
+  clear: both;
+  margin-left: 3%;
+}
+
+
+
+
+/* Sidebar */
+
+div.widget-left-sidebar h3 {
+  margin-top: 50%;
+}
+
+
+
+
+/* 404 page */
+
+.error-page {
+  margin-top: 5%;
+}
+
+.error-page h2 {
+  font-size: 2rem;
+}
+
+.error-message {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+  margin-bottom: 33%;
+}
+
+
+
+
+/* Footer */
+
+footer p {
+  padding: 4%;
+}
+
+.footer-container {
+  background-color: #3063A5;
+  padding: 5%;
+  margin-top: 3%;
+}
+
+ul#menu-main-menu-1.menu li {
+  list-style-type: none;
+}
+
+ul#menu-main-menu-1.menu li a {
+  color: #f7df7f;
+  font-size: 1.2rem;
+}
+
+div.widget-bottom-left-footer {
+  font-size: 1.2rem;
+  display: inline-block;
+  zoom: 1;
+  width: 250px;
+  color: #f7df7f;
+}
+
+div.widget-bottom-middle-footer {
+  width: 200%;
+}
+
+h3.bottom-right-footer-widget-title {
+  color: white;
+  margin-left: 20%;
+}
