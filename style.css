@@ -175,6 +175,16 @@ div.widget-left-sidebar h3 {
 
 
 
+/* Archive Page */
+.archive-page {
+  display: flex;
+}
+
+div.archive-page .post-featured-image {
+  margin-right: 3%;
+}
+
+
 
 /* 404 page */
 
