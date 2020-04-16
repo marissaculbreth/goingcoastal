@@ -13,7 +13,6 @@ get_header(); ?>
   <div class="container">
     <main>
       <div class="row">
-        <h1>Hello Worlds</h1>
         <div class="col-md-12">
           <?php dynamic_sidebar('hero-image'); ?>
         </div>

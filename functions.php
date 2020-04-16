@@ -179,4 +179,26 @@ add_action('widgets_init', 'blank_widgets_init');
 
 
 
+// Create a custom post type
+function create_post_type(){
+  register_post_type('menu_items',
+    array(
+      'labels'            => array(
+        'name'            => __('Menu Items'),
+        'singular_name'   => __('Menu Item')
+      ),
+      'public'            => true,
+      'has_archive'       => true,
+      'show_in_menu'      => true,
+      'show_in_nav_menus' => true,
+      'show_in_admin_bar' => true,
+      'can_export'        => true,
+      'menu_icon'         => 'dashicons-carrot',
+      'supports'          => array('title', 'editor', 'thumbnail'),
+    )
+  );
+}
+
+add_action('init', 'create_post_type');
+
 ?>
